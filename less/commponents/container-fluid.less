@@ -1,0 +1,136 @@
+@import 'var.less';
+
+
+.main-container {
+    background-color: @black;
+    margin-bottom: 65px;
+}
+.container-fluid {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+    
+    }
+
+    .col-lg12 {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        background-color: @black;
+
+        img {
+            width: 100%;
+            margin-bottom: 21px;
+        }
+    }
+
+    .section-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .video-gallery {
+            font-size: 30px;
+            color: @white;
+        }
+
+        a{
+            text-decoration: underline;
+            
+        }
+
+    }
+
+    .text {
+        background-color: @black;
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+        p{
+            color: @white;
+            font-size: 16px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+    }
+
+    a:hover {
+        color: @red;
+    }
+
+}
+
+.container-fluid2 {
+    img {
+        width: 100%;
+        margin-bottom: 21px;
+    }
+
+    span {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 15px;
+      
+    }
+
+    p {
+
+        .pety {
+        font-size: 16px;
+        }
+        color: @white;
+        font-size: 14px;
+        font-weight: 700px;
+        margin-bottom: 15px;
+        padding-bottom: 30px;
+    }
+
+    a:hover {
+        color: @red;
+    }
+}
+
+.fluid-container22 {
+    background-color: @black;
+    @media only screen and (min-width: @tablet) {
+        display: flex;
+        flex-wrap: wrap;
+
+
+        .container-fluid2 {
+            width: 83.3%;
+            display: flex;
+        }
+
+        img {
+            width: auto;
+            padding-left: 40px
+        }
+    }
+    .container-fl2 {
+        padding-left: 30px;
+     
+     }
+
+}
+
+
+

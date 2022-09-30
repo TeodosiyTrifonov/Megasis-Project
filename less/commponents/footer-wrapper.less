@@ -1,0 +1,132 @@
+@import 'var.less';
+
+.footer-wrapper {
+    background: @black;
+
+    
+    h4 {
+        color: @white;
+        font-size: 20px;
+        margin-bottom: 22px;
+        font-weight: 400;
+    }
+
+    li {
+        margin-bottom: 15px;
+
+    }
+
+    a {
+        color: #C2C5DB;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: transparent;
+    }
+
+    .container-first {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-footer {
+        padding-top: 80px;
+        padding-bottom: 40px;
+
+        .first {
+            margin-bottom: 50px;
+
+        }
+
+        .second {
+            margin-bottom: 50px;
+        }
+
+        .third {
+            margin-bottom: 50px;
+        }
+
+        .fourth {
+            margin-bottom: 50px;
+        }
+
+        a:hover {
+            letter-spacing: .5px;
+            text-decoration: underline;
+        }
+    }
+
+
+
+}
+
+.footer-copy-right {
+
+    padding: 33px 0px 20px;
+    background: @black;
+
+    .container-copy-right {
+
+        padding-left: 12px;
+        padding-right: 12px;
+
+        .copy-right {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        p {
+            text-align: center;
+            color: #C2C5DB;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 2;
+            margin-bottom: 12px;
+        }
+
+        span {
+            font-size: 20px;
+        }
+    }
+}
+
+.container {
+    @media only screen and (min-width: @tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        max-width: @tablet;
+
+        .first {
+            width: 50%; 
+        }
+
+        .second {
+            width: 50%;
+        }
+
+        .third {
+            width: 50%;
+        }
+        .fourth {
+            width: 50%;
+        }
+    }
+}
+
+.back-top {
+    background-color: @red;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    
+
+}
